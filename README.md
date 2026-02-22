@@ -1,11 +1,42 @@
-<div align="center">
+# SumStack: Math Puzzle
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A challenging math-based block elimination game built with React, Tailwind CSS, and Framer Motion.
 
-  <h1>Built with AI Studio</h2>
+## Features
+- **Classic Mode**: Survive as long as possible. A new row is added after every successful match.
+- **Time Mode**: Race against the clock. A new row is added every 10 seconds.
+- **Responsive Design**: Play on mobile or desktop.
+- **High Score**: Track your best performance locally.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Tech Stack
+- **Frontend**: React 19, TypeScript
+- **Styling**: Tailwind CSS 4
+- **Animations**: Framer Motion (motion/react)
+- **Icons**: Lucide React
+- **Effects**: Canvas Confetti
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Getting Started
 
-</div>
+### Prerequisites
+- Node.js (v18+)
+- npm
+
+### Installation
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+### Deployment to Vercel
+1. Push this code to a GitHub repository.
+2. Go to [Vercel](https://vercel.com) and click "Add New" -> "Project".
+3. Import your GitHub repository.
+4. Vercel will automatically detect the Vite configuration. Click "Deploy".
+
+## License
+Apache-2.0

@@ -1,0 +1,5 @@
+{
+  "name": "SumStack: Math Puzzle",
+  "description": "A challenging math-based block elimination game. Sum numbers to reach the target and prevent the stack from reaching the top.",
+  "requestFramePermissions": []
+}
